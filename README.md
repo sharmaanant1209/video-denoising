@@ -15,5 +15,6 @@ The project will be in python programming language and will use the following li
 2. http://openaccess.thecvf.com/content_ICCV_2017/papers/He_Mask_R-CNN_ICCV_2017_paper.pdf
 3. https://arxiv.org/pdf/1311.2524.pdf
 4. https://arxiv.org/pdf/1506.02640v5.pdf
+5. http://www.huppelen.nl/publications/selectiveSearchDraft.pdf
 
 
