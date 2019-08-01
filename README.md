@@ -2,7 +2,7 @@
 
 We want to do a project in object detection, which is a classical problem in Computer Vision.
 
-In this project, we will try to implement and train various object detection algorithms from scratch and compare the results on multiple metrics among them. We have selected some of the state-of-the-art algorithms for our project in object detection such as R-CNN, Mask R-CNN, Fast R-CNN, Faster R-CNN and YOLO algorithm.
+In this project, we will try to implement and train various object detection algorithms from scratch and compare the results on multiple metrics among them. We have selected some of the state-of-the-art algorithms for our project in object detection such as R-CNN, Mask R-CNN, Fast R-CNN, Faster R-CNN,YOLOv1 YOLOv2 and YOLOv3 algorithm.
 
 The project will be in python programming language and will use the following libraries:-
 1. Numpy
@@ -16,5 +16,7 @@ The project will be in python programming language and will use the following li
 3. https://arxiv.org/pdf/1311.2524.pdf
 4. https://arxiv.org/pdf/1506.02640v5.pdf
 5. http://www.huppelen.nl/publications/selectiveSearchDraft.pdf
+6. https://arxiv.org/pdf/1612.08242.pdf
+7. https://pjreddie.com/media/files/papers/YOLOv3.pdf
 
 
