@@ -1,22 +1,16 @@
-## Project Proposal
-
-We want to do a project in object detection, which is a classical problem in Computer Vision.
-
-In this project, we will try to implement and train various object detection algorithms from scratch and compare the results on multiple metrics among them. We have selected some of the state-of-the-art algorithms for our project in object detection such as R-CNN, Mask R-CNN, Fast R-CNN, Faster R-CNN and YOLO algorithm.
-
-The project will be in python programming language and will use the following libraries:-
-1. Numpy
-2. Tensorflow
-3. Matplotlib
-4. OpenCV
-
-## References
-1. https://arxiv.org/pdf/1506.01497.pdf
-2. http://openaccess.thecvf.com/content_ICCV_2017/papers/He_Mask_R-CNN_ICCV_2017_paper.pdf
-3. https://arxiv.org/pdf/1311.2524.pdf
-4. https://arxiv.org/pdf/1506.02640v5.pdf
-5. http://www.huppelen.nl/publications/selectiveSearchDraft.pdf
-6. https://arxiv.org/pdf/1612.08242.pdf
-7. https://pjreddie.com/media/files/papers/YOLOv3.pdf
-
-
+The network had thirteen layers:
+1. Convolutional layer: 3 × 3 kernel with 70 filters
+2. Max pooling layer: stride of two
+3. Convolutional layer: 3 × 3 kernel with 60 filters
+4. Max pooling later: stride of two
+5. Convolutional layer: 3 × 3 kernel with 50 filters
+6. Max pooling later: stride of two
+7. Convolutional layer: 3 × 3 kernel with 50 filters
+8. Upscaling layer: scale factor of two
+9. Convolutional layer: 3 × 3 kernel with 60 filters
+10. Upscaling layer: scale factor of two
+11. Convolutional layer: 3 × 3 kernel with 70 filters
+12. Upscaling layer: scale factor of two
+13. Convolutional layer: 3 × 3 kernel with one filter
+All layers used a rectified linear unit (ReLU) activation
+function except for the last, which used a sigmoid activation.
