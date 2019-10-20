@@ -1,4 +1,4 @@
-The network had thirteen layers:
+The network had thirteen layers which are listed as follows:
 1. Convolutional layer: 3 × 3 kernel with 70 filters
 2. Max pooling layer: stride of two
 3. Convolutional layer: 3 × 3 kernel with 60 filters
