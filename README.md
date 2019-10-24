@@ -1,3 +1,4 @@
+This project involves use of Convolutional Neural Networks for video denoising.
 The network had thirteen layers:
 1. Convolutional layer: 3 × 3 kernel with 70 filters
 2. Max pooling layer: stride of two
